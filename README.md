@@ -39,7 +39,7 @@ Asegúrate de tener instalados los siguientes componentes en tu entorno local an
 
 2. Despliegue del Backend (Laravel)
 Abre una terminal, navega a la carpeta del backend y sigue estos pasos:
- 2.1. Entrar a la carpeta
+    2.1. Entrar a la carpeta
    - cd backend
  2.2. Instalar dependencias de PHP
    - composer install
@@ -65,7 +65,7 @@ Abre una terminal, navega a la carpeta del backend y sigue estos pasos:
    - php artisan serve
    - La aplicación correrá en http://localhost:8000
 
-3. Despliegue del Frontend (React)
+4. Despliegue del Frontend (React)
 Abre una nueva terminal, navega a la carpeta del frontend y ejecuta:
  3.1. Entrar a la carpeta
    - cd frontend
