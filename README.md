@@ -37,9 +37,9 @@ Asegúrate de tener instalados los siguientes componentes en tu entorno local an
  * Ejecuta el script Script-PostgreSQL.sql en tu gestor de PostgreSQL para crear las tablas relacionales.
  * Importa el archivo Script_MongoDB.js en tu colección catalogo_productos usando MongoDB Compass.
 
-2. Despliegue del Backend (Laravel)
-   Abre una terminal, navega a la carpeta del backend y sigue estos pasos:
-   2.1. Entrar a la carpeta
+2. Despliegue del Backend (Laravel) <br>
+   Abre una terminal, navega a la carpeta del backend y sigue estos pasos: <br>
+ 2.1. Entrar a la carpeta
    - cd backend
  2.2. Instalar dependencias de PHP
    - composer install
