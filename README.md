@@ -50,17 +50,17 @@ Abre una terminal, navega a la carpeta del backend y sigue estos pasos:
  * 5. Configuración del .env:
    Abre el archivo .env recién creado en el backend y configura las conexiones a ambas bases de datos:
    * Configuración PostgreSQL
-    DB_CONNECTION=pgsql
-    DB_HOST=127.0.0.1
-    DB_PORT=5432
-    DB_DATABASE=tu_base_de_datos
-    DB_USERNAME=tu_usuario
-    DB_PASSWORD=tu_contraseña
+     DB_CONNECTION=pgsql
+     DB_HOST=127.0.0.1
+     DB_PORT=5432
+     DB_DATABASE=tu_base_de_datos
+     DB_USERNAME=tu_usuario
+     DB_PASSWORD=tu_contraseña
 
    * Configuración MongoDB
-    MONGODB_CONNECTION=mongodb
-    MONGODB_URI="mongodb://localhost:27017"
-    MONGODB_DATABASE="catalogo_nosql"
+     MONGODB_CONNECTION=mongodb
+     MONGODB_URI="mongodb://localhost:27017"
+     MONGODB_DATABASE="catalogo_nosql"
  * 6. Inicar el Backend
    - php artisan serve
    - La aplicación correrá en http://localhost:8000
