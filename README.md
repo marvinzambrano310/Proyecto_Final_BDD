@@ -40,14 +40,14 @@ Asegúrate de tener instalados los siguientes componentes en tu entorno local an
 2. Despliegue del Backend (Laravel) <br>
    Abre una terminal, navega a la carpeta del backend y sigue estos pasos: <br>
  2.1. Entrar a la carpeta
-   - cd backend
+   - cd backend <br>
  2.2. Instalar dependencias de PHP
-   - composer install
+   - composer install <br>
  2.3. Crear archivo de variables de entorno
-   - cp .env.example .env
+   - cp .env.example .env <br>
  2.4. Generar la llave de la aplicación
-   - php artisan key:generate
- 2.5. Configuración del .env:
+   - php artisan key:generate <br>
+ 2.5. Configuración del .env: <br>
    Abre el archivo .env recién creado en el backend y configura las conexiones a ambas bases de datos:
    * Configuración PostgreSQL
      DB_CONNECTION=pgsql <br>
