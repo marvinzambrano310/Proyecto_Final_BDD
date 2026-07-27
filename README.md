@@ -40,7 +40,7 @@ Asegúrate de tener instalados los siguientes componentes en tu entorno local an
 2. Despliegue del Backend (Laravel) <br>
    Abre una terminal, navega a la carpeta del backend y sigue estos pasos: <br>
 2.1. Entrar a la carpeta <br>
-  * cd backend <br>
+ * cd backend <br>
 2.2. Instalar dependencias de PHP <br>
    composer install <br>
 2.3. Crear archivo de variables de entorno <br>
