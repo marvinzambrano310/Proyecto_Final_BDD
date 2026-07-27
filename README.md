@@ -39,39 +39,39 @@ Asegúrate de tener instalados los siguientes componentes en tu entorno local an
 
 2. Despliegue del Backend (Laravel)
 Abre una terminal, navega a la carpeta del backend y sigue estos pasos:
- * 1. Entrar a la carpeta
+ 2.1. Entrar a la carpeta
    - cd backend
- * 2. Instalar dependencias de PHP
+ 2.2. Instalar dependencias de PHP
    - composer install
- * 3. Crear archivo de variables de entorno
+ 2.3. Crear archivo de variables de entorno
    - cp .env.example .env
- * 4. Generar la llave de la aplicación
+ 2.4. Generar la llave de la aplicación
    - php artisan key:generate
- * 5. Configuración del .env:
+ 2.5. Configuración del .env:
    Abre el archivo .env recién creado en el backend y configura las conexiones a ambas bases de datos:
    * Configuración PostgreSQL
-     DB_CONNECTION=pgsql
-     DB_HOST=127.0.0.1
-     DB_PORT=5432
-     DB_DATABASE=tu_base_de_datos
-     DB_USERNAME=tu_usuario
-     DB_PASSWORD=tu_contraseña
+     DB_CONNECTION=pgsql <br>
+     DB_HOST=127.0.0.1 <br>
+     DB_PORT=5432 <br>
+     DB_DATABASE=tu_base_de_datos <br>
+     DB_USERNAME=tu_usuario <br>
+     DB_PASSWORD=tu_contraseña <br>
 
    * Configuración MongoDB
-     MONGODB_CONNECTION=mongodb
-     MONGODB_URI="mongodb://localhost:27017"
-     MONGODB_DATABASE="catalogo_nosql"
- * 6. Inicar el Backend
+     MONGODB_CONNECTION=mongodb <br>
+     MONGODB_URI="mongodb://localhost:27017" <br>
+     MONGODB_DATABASE="catalogo_nosql" <br>
+ 2.6. Inicar el Backend
    - php artisan serve
    - La aplicación correrá en http://localhost:8000
 
 3. Despliegue del Frontend (React)
 Abre una nueva terminal, navega a la carpeta del frontend y ejecuta:
- * 1. Entrar a la carpeta
+ 3.1. Entrar a la carpeta
    - cd frontend
- * 2. Instalar dependencias de Node.js
+ 3.2. Instalar dependencias de Node.js
    - npm install
- * 3. Levantar el servidor de desarrollo
+ 3.3. Levantar el servidor de desarrollo
    - npm run dev
    - La aplicación correrá en http://localhost:5173
 
