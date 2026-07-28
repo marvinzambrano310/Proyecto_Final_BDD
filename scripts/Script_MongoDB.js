@@ -1,20 +1,3 @@
-/*
- Navicat Premium Data Transfer
-
- Source Server         : MONGO
- Source Server Type    : MongoDB
- Source Server Version : 80301 (8.3.1)
- Source Host           : localhost:27017
- Source Schema         : tienda_catalogo
-
- Target Server Type    : MongoDB
- Target Server Version : 80301 (8.3.1)
- File Encoding         : 65001
-
- Date: 26/07/2026 22:26:32
-*/
-
-
 // ----------------------------
 // Collection structure for product_catalogs
 // ----------------------------

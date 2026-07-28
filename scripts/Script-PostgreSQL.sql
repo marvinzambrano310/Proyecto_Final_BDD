@@ -1,21 +1,3 @@
-/*
- Navicat Premium Data Transfer
-
- Source Server         : PGSQL
- Source Server Type    : PostgreSQL
- Source Server Version : 180000 (180000)
- Source Host           : localhost:5432
- Source Catalog        : eccomerce
- Source Schema         : public
-
- Target Server Type    : PostgreSQL
- Target Server Version : 180000 (180000)
- File Encoding         : 65001
-
- Date: 26/07/2026 22:26:04
-*/
-
-
 -- ----------------------------
 -- Sequence structure for failed_jobs_id_seq
 -- ----------------------------
@@ -286,6 +268,11 @@ INSERT INTO "public"."stock" VALUES ('MUG-LARAVEL-02', 28, '2026-07-26 18:11:30'
 INSERT INTO "public"."stock" VALUES ('TSHIRT-LARAVEL-01', 147, '2026-07-26 17:58:24', '2026-07-27 02:33:05');
 INSERT INTO "public"."stock" VALUES ('CAP3', 18, '2026-07-27 02:29:10', '2026-07-27 02:33:13');
 INSERT INTO "public"."stock" VALUES ('CAP2', 25, '2026-07-27 02:27:46', '2026-07-27 02:33:23');
+INSERT INTO "public"."stock" VALUES ('TECH-LAP-X1', 25, NULL, NULL);
+INSERT INTO "public"."stock" VALUES ('TECH-PHO-Z9', 50, NULL, NULL);
+INSERT INTO "public"."stock" VALUES ('TECH-HEAD-PRO', 100, NULL, NULL);
+INSERT INTO "public"."stock" VALUES ('MERCH-SHIRT-01', 120, NULL, NULL);
+INSERT INTO "public"."stock" VALUES ('MERCH-MUG-02', 80, NULL, NULL);
 
 -- ----------------------------
 -- Table structure for users
